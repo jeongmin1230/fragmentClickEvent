@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E0F2F1"
+        android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFragment"
+        android:gravity="center"
+        android:text="fragment"
+        android:textColor="#2a2a2a"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="40dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="글자 바꾸기"
+            android:textSize="20dp"
+            android:id="@+id/btnChange" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
